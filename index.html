@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Gato Preto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Livraria - Gato Preto</h1>
+        <p>Livros em promoção!!</p>
+    </header>
+
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <img src="img/produto.jpg" class="img" alt="E-Cat Reader" />
+        <strong class="centralizado"> Conheça nosso E-reader ≽^•⩊•^≼ </strong>
+        <p> Dimensões: 157,8 x 108,6 x 8,0 mm.</p>
+        <p> Disponível em diversas cores</p>
+        <button onclick="comprar('E-Cat Reader')">Comprar</button>
+
+        <img src="img/produto2.jpg" class="img" alt="E-books Gato Preto" />
+        <strong class="centralizado"> Biblioteca completa e integrada! Venha conhecer! ≽^•⩊•^≼ </strong>
+        <p>Promoções de livros para gateiros! </p>
+        <p>Compatível com diversos aplicativos para leitura </p>
+        <strong> Arquivo E-pub! </strong>
+        <button onclick="comprar('E-Cat Reader')">Comprar</button>
+    </section>
+
+    <section id="equipe">
+        <h2>Nossa Equipe</h2>
+        <div class="membro-equipe">
+            <img src="img/membro1.jpg" class="img" alt="João Silva" />
+            <h3>Dr. Pantera</h3>
+            <p>CEO</p>
+        </div>
+        <div class="membro-equipe">
+            <img src="img/membro2.jpg" class="img" alt="Maria Oliveira" />
+            <h3>Maria Maia</h3>
+            <p>Desenvolvedora</p>
+        </div>
+        <div class="membro-equipe">
+            <img src="img/membro3.jpg" class="img" alt="Pedro Santos" />
+            <h3>José Maria</h3>
+            <p>Marketing</p>
+        </div>
+    </section>
+
+    <section id="inscricao">
+        <h2>Saiba mais! Inscreva-se:</h2>
+        <form id="form-inscricao">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required>
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" required>
+            <button type="submit">Inscrever-se</button>
+        </form>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

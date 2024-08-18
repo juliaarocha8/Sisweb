@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F6C7DD;
+}
+
+header {
+    background: #3954A3;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    width: 80%; 
+    max-width: 600px; 
+    margin: 10px auto; 
+    padding: 15px;
+    background: white;
+    border-radius: 5px;
+}
+
+#produtos img{
+    max-width: 100%;
+    height: auto;
+}
+
+.membro-equipe img {
+    max-width: 250px; 
+    height: auto;
+    margin: 10px;
+}
+
+.membro-equipe {
+    text-align: center;
+    margin: 10px;
+}
+
+.centralizado {
+    text-align: center; 
+    display: block;  
+    margin: 20px 0;  
+    color: #eb0994e7;  
+    font-size: 1.2em; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px;
+    background: #F6C7DD;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #be7a7a;
+}
